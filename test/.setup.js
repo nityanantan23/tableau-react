@@ -1,7 +1,7 @@
 require('babel-register')();
 
 const configure = require('enzyme').configure;
-const Adapter = require('enzyme-adapter-react-16');
+const Adapter = require('enzyme-adapter-react-17-updated');
 const jsdom = require('jsdom');
 const { JSDOM } = jsdom;
 
